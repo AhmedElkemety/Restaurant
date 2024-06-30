@@ -372,12 +372,20 @@ main .container form .click input:hover {
   }
 }
 @media (max-width:800px){
+  main {
+    margin-top: 850px;
+  }
   main .container {
     width: 390px;
   }
   main .container .book-a-table {
     gap: 25px;
-  }
+    transform: translate(-50%,-100%);
+    -webkit-transform: translate(-50%,-90%);
+    -moz-transform: translate(-50%,-100%);
+    -ms-transform: translate(-50%,-100%);
+    -o-transform: translate(-50%,-100%);
+}
   main .container .book-a-table .up {
     width: 380px;
   }
