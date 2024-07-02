@@ -99,11 +99,12 @@ html{
 /* Start Heading */
 /* Start Nav */
 nav {
+  background-color: white;
   position:fixed;
   overflow: hidden;
   width: 100%;
   top:0;
-  height: 129px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -230,7 +231,7 @@ nav .down .container .book:hover {
 /* End Nav */
 /* start header */
 header {
-  margin-top: 149px;
+  margin-top: 110px;
 }
 header img {
   width: 100%;

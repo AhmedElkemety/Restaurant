@@ -99,11 +99,12 @@ html{
 /* Start Heading */
 /* Start Nav */
 nav {
+  background-color: white;
   position:fixed;
   overflow: hidden;
   width: 100%;
   top:0;
-  height: 129px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -231,7 +232,7 @@ nav .down .container .book:hover {
 /* start main  */
 /* start section1 */
 main {
-  margin-top: 149px;
+  margin-top: 110px;
 }
 main .section1 {
   padding: var(--section-padding);
