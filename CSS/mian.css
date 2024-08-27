@@ -99,16 +99,16 @@ html{
 /* Start Heading */
 /* Start Nav */
 nav {
-  background-color: white;
   position:fixed;
   overflow: hidden;
   width: 100%;
   top:0;
-  height: 110px;
+  height: 129px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 2;
+  background-color: white;
 }
 nav .up {
   background-color: var(--main-color1);
@@ -206,6 +206,7 @@ nav .down .container .book:hover {
   }
   nav .up {
     height: 50px ;
+    padding: 2px 0px;
   }
   nav .up .container {
     flex-direction: column;
@@ -231,7 +232,7 @@ nav .down .container .book:hover {
 /* End Nav */
 /* start header */
 header {
-  margin-top: 110px;
+  margin-top: 149px;
 }
 header img {
   width: 100%;
@@ -242,8 +243,8 @@ header .container .center {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  top: 71%;
-  left: 51%;
+  top: 68%;
+  left: 48%;
   transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   -moz-transform: translate(-50%,-50%);
@@ -602,7 +603,6 @@ main .section2 .container .right a:hover {
   }
   main .section2 .container .right {
     gap: 40px;
-    margin-top: 100px;
   }
 }
 @media (max-width:800px){
@@ -619,7 +619,7 @@ main .section2 .container .right a:hover {
   main .section2 .container .left .contact {
     margin: auto;
     left: -5%;
-    top:80%;
+    top:30%;
     width: 320px;
   }
   main .section2 .container .right {

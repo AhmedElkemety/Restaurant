@@ -99,16 +99,16 @@ html{
 /* Start Heading */
 /* Start Nav */
 nav {
-  background-color: white;
   position:fixed;
   overflow: hidden;
   width: 100%;
   top:0;
-  height: 110px;
+  height: 129px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 2;
+  background-color: white;
 }
 nav .up {
   background-color: var(--main-color1);
@@ -206,6 +206,7 @@ nav .down .container .book:hover {
   }
   nav .up {
     height: 50px ;
+    padding: 2px 0px;
   }
   nav .up .container {
     flex-direction: column;
@@ -232,7 +233,7 @@ nav .down .container .book:hover {
 /* start main  */
 /* start section1 */
 main {
-  margin-top: 110px;
+  margin-top: 149px;
 }
 main .section1 {
   padding: var(--section-padding);
