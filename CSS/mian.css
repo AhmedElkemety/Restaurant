@@ -629,9 +629,10 @@ main .section2 .container .right a:hover {
   }
   main .section2 .container .right {
     width: 350px;
+    margin-top: 100px;
   }
   main .section2 .container .right h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   main .section2 .container .right .up {
     font-size: 16px;
