@@ -298,11 +298,16 @@ header .container .center .bottom .left:hover ,header .container .center .bottom
   header .container .center p {
     display: none;
   }
+  header .container .center {
+    /* width: 390px;
+    height: 100px; */
+    top : 35%;
+  }
   header .container .center h1 {
     font-size: 60px;
   }
 }
-@media (max-width:800px){
+@media (max-width:799px){
   header {
     margin-top:110px;
   }
