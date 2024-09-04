@@ -671,6 +671,13 @@ main .section3 .container .cards .card {
   flex-direction: column;
   justify-content: space-between;
 }
+main .section3 .container .cards .card img {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
 main .section3 .container .cards .card:hover {
   scale: 1.1;
   transition-duration: var(--trans);
